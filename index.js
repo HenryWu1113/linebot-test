@@ -12,7 +12,7 @@ const bot = linebot({
 
 bot.on('message', (event) => {
   if (data.courses.length === 0) {
-    event.reply('資料讀取中，請稍後再試')
+    event.reply('資料讀取中，請稍後再試喔')
   } else if (event.message.type === 'text') {
     if (event.message.text === '共通課程') {
       // event.reply(event.message.text + '123')
