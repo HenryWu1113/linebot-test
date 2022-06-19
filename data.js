@@ -37,7 +37,7 @@ const replyCourses = (event) => {
       altText: '共通課程',
       contents: {
         type: 'carousel',
-        contents: bubbles.slice(0, 6)
+        contents: bubbles.slice(0, 3)
       }
     }
   ])
